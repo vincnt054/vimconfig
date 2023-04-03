@@ -65,6 +65,7 @@ set smartcase
 
 set encoding=utf-8
 set relativenumber
+set clipboard=unnamedplus
 
 " Trailing whitespace remove on save
 autocmd FileType c,cpp,java,golang,rust,python autocmd BufWritePre <buffer> %s/\s\+$//e
